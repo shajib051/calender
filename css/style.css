@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    font-size: 40px;
+}
+h1{
+    width: 670px;
+    font-size: 40px;
+    background-color: darkgreen;
+    padding: 15px;
+    border-bottom: 5px solid red;
+    border-top-left-radius: 70px;
+    border-top-right-radius:70px ;
+}
+tr{
+    text-align: center;
+}
+th{
+    padding: 10px;
+}
+.active {
+    padding: 1px 25px;
+    background: #1abc9c;
+    color: #ffffff !important;}
+ tr td:hover{  
+     padding: 1px 4px;
+    background: #1abc9c;
+    color: #ffffff !important;
+    cursor: pointer;
+  }
+  table{
+      background-color: chartreuse;
+      position: relative;
+  }
+.firstline{
+    background-color: crimson;
+}
+.prev {
+    float: left;
+    padding-top: 10px;
+    position: absolute;
+    top: 130px;
+    bottom: 0;
+    right: 35%;
+    left: 0px;
+  }
+  
+  .next {
+    float: right;
+    padding-top: 10px;
+    position: absolute;
+    top: 130px;
+    bottom: 0;
+    right: 0px;
+    left: 35%;
+}
